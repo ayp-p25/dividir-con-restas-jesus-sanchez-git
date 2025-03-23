@@ -17,5 +17,5 @@ i = 0
 N = int(input("Ingrese el dividendo : \n"))
 D = int(input("Ingrese el divisor: \n"))
 Div = dividir_con_resta(N,D,i)
-R = D-Resisduo(N,D,i)+1
+R = Resisduo(N,D,i)
 print(f"El cociente es {Div} \nEl residuo es {R} ") 
